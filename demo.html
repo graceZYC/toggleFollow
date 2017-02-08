@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        li {
+            width: 100px;
+            height: 30px;
+            background-color: pink;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+
+        .current {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+</body>
+<script src='./toggleFollow.js'></script>
+<script>
+    var lis = document.querySelectorAll('li');
+    toggleFollow(lis, 'current');
+</script>
+</html>
